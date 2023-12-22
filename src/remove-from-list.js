@@ -41,7 +41,6 @@ function removeKFromList(l, k) {
 			}
 		}
 		prev = list;
-		if (!list.next) break;
 		list = list.next;
 	}
 	return l;
